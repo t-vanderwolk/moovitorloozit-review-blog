@@ -14,6 +14,21 @@ class Email extends React.Component{
       nameChange = (event) => {
         this.setState({name: event.target.value})
       }
+      roomChange = (event) => {
+        this.setState({rooms: event.target.value})
+      }
+      phoneChange = (event) => {
+        this.setState({phone: event.target.value})
+      }
+      dateChange = (event) => {
+        this.setState({date: event.target.value})
+      }
+      currentAdressChange = (event) => {
+        this.setState({currentAddress: event.target.value})
+      }
+      movingAddressChange = (event) => {
+        this.setState({movingAddress: event.target.value})
+      }
       
       // saves the user's email entered to state
       emailChange = (event) => {
@@ -21,9 +36,7 @@ class Email extends React.Component{
       }
 
       // saves the user's message entered to state
-      messageChange = (event) => {
-        this.setState({feedback: event.target.value})
-      }
+    
 
       //onSubmit of email form
       handleSubmit = (event) => {
@@ -36,16 +49,22 @@ class Email extends React.Component{
         //from the form and sends the email with the information gathered 
         //and formats the email based on the templateID provided.
         this.sendFeedback(templateId, {
-                                        message: this.state.feedback, 
-                                        name: this.state.name, 
-                                        email: this.state.email
+          feedback: this.state.feedback,
+          rooms: this.state.rooms, 
+          phone: this.state.phone,
+         name: this.state.name, 
+        email: this.state.email,
+        currentAddress: this.state.currentAddress,
+        movingAddress: this.state.movingAddress,
+        date: this.state.date,
+        miles: this.state.miles
                                        }
                          )
 
       }
     
       //Custom EmailJS method
-      sendFeedback = (templateId, variables) => {
+      sendFeedback = (templateId, variables, ) => {
         window.emailjs.send(
           'gmail', templateId,
           variables
@@ -72,42 +91,57 @@ class Email extends React.Component{
           //Form layout that requires a Name, Email, and message
           <form className="test-mailing" onSubmit={this.handleSubmit}>
 
-            <br/>
-            <div style={{fontSize: "1.2rem"}}>
+          <>
+            <div style={{fontSize: "1.2rem",backgroundColor:"rgb(0, 200, 255)"}}>
 
-              <h6>You can also send me an email directly from here</h6>
+            <h1>Get A Quote</h1>
               <div>
-                  <label htmlFor="name">Name</label>
+                <label htmlFor="name">Name</label>
                   <input className="form-control email-inputs" name="user_name" type="text" 
                     id="name" onChange={this.nameChange} required/>
-              </div>
-
-              <div>
-                  <label htmlFor="email">Email</label>
+                    </div>
+                    <div>
+                <label htmlFor="email">Email</label>
                   <input className="form-control email-inputs" name="user_email" type="text"
                     id="email" onChange={this.emailChange} required/>
-              </div>
+                    </div>
+                    <div>
+                <label htmlFor="phone">Phone Number</label>
+                  <input className="form-control email-inputs" type="text" name="phone" id="phone" />  
+                </div>
+                <div>
+                <label htmlFor="currentAddress">Current Address</label>
+                <input className="form-control email-inputs" type="text" name="currentAddress" id="currentAddress"  required/>
 
-              <label htmlFor="message">
-                  Message
-              </label>
+                </div>
+                <div>
+                <label htmlFor="movingAddress">Moving To Address</label>
+                <input className="form-control email-inputs" type="text" name="movingAddress" id="movingAddress"  required/>
+
+                </div>
+                <div>
+                      
+                <label htmlFor="rooms">How Many Rooms</label>
+                <input className="form-control email-inputs"  type="number" name="rooms" id="rooms"  required/>
+
+                </div>
+                <div>
+                                   
+             <label htmlFor="date">Moving Date</label>
+             <input className="form-control email-inputs"  type="date" name="date" id="date"  
+                                required/>
+                                </div>
               <div>
-                <textarea
-                  id="message"
-                  name="message"
-                  onChange={this.messageChange}
-                  placeholder="Put your message here"
-                  required
-                  className="email-text-area form-control"
-                  rows="15"
-                  cols="20"
-                />
-              </div>
-
+              <label htmlFor="miles">Total Miles Moving</label>
+             <input className="form-control email-inputs" type="text" name="miles" id="miles"  
+                                required/>
             </div>
 
             <input type="submit" value="Submit" className="btn btn-outline-light" />
+            </div>
+            </>
           </form>
+       
         )
       }
 }

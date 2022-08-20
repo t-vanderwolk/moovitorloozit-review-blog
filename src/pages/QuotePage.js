@@ -1,9 +1,11 @@
 import React from 'react'
+import Email from '../components/Email';
 
 const QuotePage =() => (
     <>
   
-    <h1 class ='title'>Get A Quote</h1>
+    <h1 className ='title'>Get A Quote</h1>
+    <Email />
 
 <p>Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, sed do eiusmod tempor 

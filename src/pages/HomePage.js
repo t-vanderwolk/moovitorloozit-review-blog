@@ -3,7 +3,7 @@ import React from 'react'
 const HomePage =() => (
     <>
 
-    <h1 class = 'title' style={{backgroundColor: "rgb(0, 200, 255)"}}>Moovit Or Loozit Mooving Co.</h1>
+    <h1 className = 'title' style={{backgroundColor: "rgb(0, 200, 255)"}}>Moovit Or Loozit Mooving Co.</h1>
 
 <p>Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, sed do eiusmod tempor 

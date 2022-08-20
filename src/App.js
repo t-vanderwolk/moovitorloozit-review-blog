@@ -7,6 +7,7 @@ import QuotePage from './pages/QuotePage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import NavBar from './components/NavBar';
+import Photos from './components/Photos';
 // import './App.css';
 // import './Nav.css'
 import './style/Home.css'

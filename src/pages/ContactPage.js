@@ -1,11 +1,10 @@
 import React from 'react'
-import Email from '../components/Email';
 
 const ContactPage=() => (
     <>
   
-    <h1 class = 'title'>Contact Us</h1>
-    <Email />
+    <h1 className = 'title'>Contact Us</h1>
+  
 
 <p>Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, sed do eiusmod tempor 

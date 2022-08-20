@@ -5,10 +5,10 @@ const NavBar =() => {
   
   return (
    <>
- 	<header class="header">
-		<h1 class="logo"><Link to ='./'>Moovit Or Loozit</Link>
+ 	<header className="header">
+		<h1 className="logo"><Link to ='./'>Moovit Or Loozit</Link>
         </h1>
-      <ul class="main-nav">
+      <ul className="main-nav">
         <li>
             <Link to ='/'>HomePage</Link></li>
         <li>

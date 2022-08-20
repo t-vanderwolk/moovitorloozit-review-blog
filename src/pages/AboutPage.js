@@ -1,14 +1,13 @@
 import React from 'react'
-
+import Photos from "../components/Photos"
 const AboutPage =() => (
+
     <>
 
   
-    <h1 class = 'title'>About Us</h1>
+    <h1 className = 'title'>About Us</h1>
 
-    <div class = 'pictures'>
-      <img src ="../pictures/image2.jpeg" alt="crew"></img>
-    </div>
+   <Photos />
 
 <p>Lorem ipsum dolor sit amet, 
 consectetur adipiscing elit, sed do eiusmod tempor 

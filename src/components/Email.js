@@ -5,9 +5,15 @@ import Swal from 'sweetalert2'
 class Email extends React.Component{
     constructor(props) {
         super(props);
-        this.state = { feedback: '',
-                      name: '',
-                      email: '' 
+        this.state = { 
+        rooms: '',
+        phone: '',
+        name: '',
+        email: '',
+        currentAddress: '',
+        movingAddress: '',
+        miles: '',
+        date: ''
                      };
       }
       // saves the user's name entered to state

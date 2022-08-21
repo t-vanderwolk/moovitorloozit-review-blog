@@ -3,7 +3,7 @@ import React from 'react'
 const ContactPage=() => (
     <>
   
-    <h1 className = 'title'>Contact Us</h1>
+    <h1 class = 'title'>Contact Us</h1>
   
 
 <p>Lorem ipsum dolor sit amet, 

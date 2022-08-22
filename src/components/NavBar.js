@@ -6,17 +6,21 @@ const NavBar =() => {
   return (
    <>
  	<header className="header">
-		<h1 className="logo"><Link to ='./'>Moovit Or Loozit</Link>
-        </h1>
+   <Link to = '/'>
+    <img className="nav-logo" width="15%"src={require('../icons/logo.png')} alt="crew" />
+    </Link>
+     
       <ul className="main-nav">
+   
         <li>
-            <Link to ='/'>HomePage</Link></li>
+            <Link to ='/about'>About</Link></li>
+            <li>
+            <Link to = '/contact'>Contact</Link></li>
         <li>
-            <Link to ='/about'>About Us</Link></li>
-        <li>
-            <Link to ='/quote'>Get A Quote</Link></li>
-        <li>
-            <Link to = '/contact'>Contact Us</Link></li>
+            <Link to ='/quote'>Quote</Link></li>
+            <li>
+            <Link to ='/quote'>Reviews</Link></li>
+     
 
     </ul>
    </header>

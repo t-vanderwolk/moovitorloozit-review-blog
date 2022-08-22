@@ -4,12 +4,13 @@ import React from "react";
       <div className="Photos" style={{
         display: "flex",
        alignContent:"center",
+       backgroundColor: "orange"
        
       }}>
-        <img width="25%" className="about-photos" src={require('../pictures/image2.jpeg')} alt="crew" />
-        <img width="25%"  className="about-photos"src={require('../pictures/image3.jpeg')} alt="crew" />
-        <img width="25%" className="about-photos"src={require('../pictures/image4.jpeg')} alt="crew" />
-        <img width="25%" className="about-photos"src={require('../pictures/nicky.jpeg')} alt="crew" />
+        <img style={{ width:"20%", margin: "2.5%" }} className="about-photos" src={require('../pictures/image2.jpeg')} alt="crew" />
+        <img style={{ width:"20%", margin: "2.5%"}} width="20%"  className="about-photos"src={require('../pictures/image3.jpeg')} alt="crew" />
+        <img style={{ width:"20%", margin: "2.5%"}}  width="20%" className="about-photos"src={require('../pictures/image4.jpeg')} alt="crew" />
+        <img style={{ width:"20%", margin: "2.5%"}}  width="20%" className="about-photos"src={require('../pictures/nicky.jpeg')} alt="crew" />
       </div>
     );
   }

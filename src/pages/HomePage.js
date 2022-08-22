@@ -3,34 +3,20 @@ import React from 'react'
 const HomePage =() => (
     <>
 
-    <h1 className = 'title' style={{backgroundColor: "rgb(0, 200, 255)"}}>Moovit Or Loozit Mooving Co.</h1>
+    {/* <h1 className = 'title' style={{backgroundColor: "rgb(0, 200, 255)"}}>Moovit Or Loozit Mooving Co.</h1> */}
+    <h1 style={{backgroundColor: "orange", margin: "0%" }} className ='title'>Moovit Or Loozit Mooving Co.</h1>
 
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-officia deserunt mollit anim id est laborum.</p>
+<div style={{
+        display: "flex",
+       alignContent:"baseline",
+       backgroundColor: "orange"
+       
+      }}className='homepage-icons'>
+<img  style={{ width:"30%", margin: "2%" }} className="washington" src={require('../icons/washington.png')} alt="washington state" />
+<img  style={{ width:"40%", margin: "2%" }} className="nav-logo" src={require('../icons/moovitLogo.png')} alt="crew" />
 
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum.</p>
+<img  style={{ width:"30%", margin: "2%" }}  className="washington" src={require('../icons/us-map.png')} alt="washington state" />
+</div>
 
   </>
   );

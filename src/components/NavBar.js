@@ -6,9 +6,9 @@ const NavBar =() => {
   return (
    <>
  	<header className="header">
-   <Link to = '/'>
-    <img className="nav-logo" width="15%"src={require('../icons/logo.png')} alt="crew" />
-    </Link>
+   
+    
+    <Link to = '/'><img className="nav-logo" width="15%"src={require('../icons/moovitLogo.png')} alt="logo" style= {{display:"left" }}/> </Link> 
      
       <ul className="main-nav">
    

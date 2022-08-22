@@ -4,7 +4,7 @@ import React from "react";
       <div className="Photos" style={{
         display: "flex",
        alignContent:"center",
-       backgroundColor: "orange"
+       backgroundColor: "#469DE1"
        
       }}>
         <img style={{ width:"20%", margin: "2.5%" }} className="about-photos" src={require('../pictures/image2.jpeg')} alt="crew" />

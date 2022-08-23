@@ -19,7 +19,7 @@ const NavBar =() => {
         <li>
             <Link to ='/quote'>Quote</Link></li>
             <li>
-            <Link to ='/quote'>Reviews</Link></li>
+            <Link to ='/review'>Reviews</Link></li>
      
 
     </ul>

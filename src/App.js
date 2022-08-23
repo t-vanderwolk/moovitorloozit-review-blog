@@ -6,8 +6,10 @@ import AboutPage from './pages/AboutPage';
 import QuotePage from './pages/QuotePage';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
+
 import NavBar from './components/NavBar';
-import Photos from './components/Photos';
+
+
 // import './App.css';
 // import './Nav.css'
 import './style/Home.css'
@@ -31,6 +33,7 @@ function App() {
       <Route path ='/about' element= {<AboutPage />} />
      <Route path ='/contact' element={ <ContactPage />} />
      <Route path ='/quote' element= {<QuotePage />} />
+     {/* <Route path ='/review' element= {<ReviewPage />} /> */}
     </Routes>
     </div>
 

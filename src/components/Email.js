@@ -98,26 +98,28 @@ class Email extends React.Component{
           <form className="test-mailing" onSubmit={this.handleSubmit}>
 
           <>
-            <div style={{fontSize: "1.2rem",backgroundColor:"rgb(0, 200, 255)"}}>
+            <div style={{fontSize: "1.2rem",backgroundColor:"orange",
+            display:"flexbox",
+            textAlign: "center",
+            marginLeft: "7%",
+            marginRight: "7%"}}>
 
-            <h1>Get A Quote</h1>
+            <h3>We Need A Little More Information</h3>
               <div>
-                <label htmlFor="name">Name</label>
-                  <input className="form-control email-inputs" name="user_name" type="text" 
+               
+                  <input className="form-control email-inputs" name="user_name" type="text" placeholder="Name"
                     id="name" onChange={this.nameChange} required/>
                     </div>
                     <div>
-                <label htmlFor="email">Email</label>
+        
                   <input className="form-control email-inputs" name="user_email" type="text"
-                    id="email" onChange={this.emailChange} required/>
+                  placeholder="email"  id="email" onChange={this.emailChange} required/>
                     </div>
                     <div>
-                <label htmlFor="phone">Phone Number</label>
-                  <input className="form-control email-inputs" type="text" name="phone" id="phone" />  
+                  <input className="form-control email-inputs" type="text" name="phone" id="phone" placeholder="phone"/>  
                 </div>
                 <div>
-                <label htmlFor="currentAddress">Current Address</label>
-                <input className="form-control email-inputs" type="text" name="currentAddress" id="currentAddress"  required/>
+                <input className="form-control email-inputs" type="text" name="currentAddress" id="currentAddress" placeholder='Current Address'  required/>
 
                 </div>
                 <div>

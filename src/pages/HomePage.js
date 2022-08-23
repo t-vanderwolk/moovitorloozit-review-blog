@@ -2,9 +2,9 @@ import React from 'react'
 // import '../style/Home.css'
 const HomePage =() => (
     <>
-        <h1 style={{marginBottom: "0%"}}className ='title'>MOOVIT OR LOOZIT</h1>
+        <h1 style={{marginTop:"7%",marginBottom: "0%"}}className ='title'>MOOVIT OR LOOZIT</h1>
     <h2  style={{marginTop: "0%"}} className ='title'> MOOVING CO.</h2>
-<div className='hompage-head'style={{display:"flex", justifyContent:"space-evenly", alignContent:"baseline", backgroundColor:"orange"}}>
+<div className='hompage-head'style={{display:"flex", justifyContent:"space-evenly", alignContent:"baseline", backgroundColor:"orange", marginLeft:"7%", marginRight:"7%"}}>
 
 
 
@@ -16,7 +16,7 @@ const HomePage =() => (
 <img  style={{ width:"20%", height:"100%",  padding: "2%"}}  className="washington" src={require('../icons/us-map.png')} alt="washington state" />
 
 </div>
-<h3 style={{backgroundColor: "orange", marginTop: "0%"}} className ='title'>~"Let's Get MOOvin!"</h3>
+<h3 style={{backgroundColor: "orange", marginTop: "0%", marginLeft:"7%", marginRight:"7%", marginBottom:"7%"}} className ='title'>~"Let's Get MOOvin!"</h3>
 
 
         

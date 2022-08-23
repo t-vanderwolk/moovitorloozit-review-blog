@@ -3,7 +3,12 @@ body {
 }
 
 p {
-    background-color:white;
+    background-color:orange;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 2%;
+    border: 3px solid black;
 }
 .title{
     background-color: #469DE1;

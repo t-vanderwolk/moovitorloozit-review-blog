@@ -93,18 +93,24 @@ class Email extends React.Component{
     
       render() {
         return (
-          
-          //Form layout that requires a Name, Email, and message
-          <form className="test-mailing" onSubmit={this.handleSubmit}>
+             
+          <div style={{fontSize: "1.2rem",backgroundColor:"orange",
+          display:"flexbox",
+          textAlign: "center",
+          marginLeft: "7%",
+          marginRight: "7%",
+          marginTop: "0%",
+          marginBottom: "7%",
+          border: "3px black solid"
+          // padding: "7%",
+          }}>
+    
+          {/* //Form layout that requires a Name, Email, and message */}
+          <form style={{paddingBottom: "12%"}} className="test-mailing" onSubmit={this.handleSubmit}>
 
-          <>
-            <div style={{fontSize: "1.2rem",backgroundColor:"orange",
-            display:"flexbox",
-            textAlign: "center",
-            marginLeft: "7%",
-            marginRight: "7%"}}>
+ 
 
-            <h3>We Need A Little More Information</h3>
+            <h3 style={{marginTop:"0%"}}>We Need A Little More Information</h3>
               <div>
                
                   <input className="form-control email-inputs" name="user_name" type="text" placeholder="Name"
@@ -113,42 +119,41 @@ class Email extends React.Component{
                     <div>
         
                   <input className="form-control email-inputs" name="user_email" type="text"
-                  placeholder="email"  id="email" onChange={this.emailChange} required/>
+                  placeholder="Email"  id="email" onChange={this.emailChange} required/>
                     </div>
                     <div>
-                  <input className="form-control email-inputs" type="text" name="phone" id="phone" placeholder="phone"/>  
+                  <input className="form-control email-inputs" type="text" name="phone" id="phone" placeholder="Phone Number"/>  
                 </div>
                 <div>
                 <input className="form-control email-inputs" type="text" name="currentAddress" id="currentAddress" placeholder='Current Address'  required/>
 
                 </div>
                 <div>
-                <label htmlFor="movingAddress">Moving To Address</label>
-                <input className="form-control email-inputs" type="text" name="movingAddress" id="movingAddress"  required/>
+                <input className="form-control email-inputs" type="text" name="movingAddress" id="movingAddress" placeholder='Moving To Address' required/>
 
                 </div>
                 <div>
                       
-                <label htmlFor="rooms">How Many Rooms</label>
-                <input className="form-control email-inputs"  type="number" name="rooms" id="rooms"  required/>
+                <input className="form-control email-inputs"  type="number" name="rooms" id="rooms" placeholder='How Many Rooms' required/>
 
                 </div>
                 <div>
                                    
-             <label htmlFor="date">Moving Date</label>
+            
              <input className="form-control email-inputs"  type="date" name="date" id="date"  
-                                required/>
+                            placeholder='Moving Date'    required/>
                                 </div>
               <div>
-              <label htmlFor="miles">Total Miles Moving</label>
+            
              <input className="form-control email-inputs" type="text" name="miles" id="miles"  
-                                required/>
+                           placeholder='Total Miles'     required/>
             </div>
 
             <input type="submit" value="Submit" className="btn btn-outline-light" />
-            </div>
-            </>
-          </form>
+          
+            
+        </form>
+       </div>
        
         )
       }

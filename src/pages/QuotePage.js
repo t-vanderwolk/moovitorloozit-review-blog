@@ -1,38 +1,15 @@
 import React from 'react'
+
 import Email from '../components/Email';
 
 const QuotePage =() => (
     <>
   
-    <h1 class ='title'>Get A Quote</h1>
+    <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black", marginBottom:"0%"}} className ='title'>Get A Quote</h1>
     <Email />
 
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-officia deserunt mollit anim id est laborum.</p>
 
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum.</p>
 
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum.</p>
   </>
   );
 

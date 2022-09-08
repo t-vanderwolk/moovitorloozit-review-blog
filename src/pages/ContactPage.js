@@ -2,35 +2,23 @@ import React from 'react'
 const ContactPage=() => (
     <>
   
-    <h1 class = 'title'>Contact Us</h1>
+    <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black",marginBottom:"0%", marginTop:"7%"}} class = 'title'>Contact Us</h1>
   
 
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum.</p>
-
-<p>Lorem ipsum dolor sit amet, 
-consectetur adipiscing elit, sed do eiusmod tempor 
-incididunt ut labore et dolore magna aliqua. Ut enim ad 
-minim veniam, quis nostrud exercitation ullamco laboris 
-nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-  officia deserunt mollit anim id est laborum.</p>
+<div style={{ backgroundColor:"orange",marginRight: "7%", textAlign:"center",
+       marginLeft:"7%", marginBottom:"7%",
+       border: "3px solid black" }}>
+<h2 style={{ textAlign:"center"}}>Contact Us By Email, Phone or Text 24/7!</h2>
+<ul>
+  <li>
+<img  style={{ width:"10%", height:"100%", padding: "2%" }} className="mail" src={require('../pictures/mail.png')} alt="email-icon" /> 
+<h3>moovitorloozit@gmail.com</h3></li>
+<li>
+<img  style={{ width:"10%", height:"100%", padding: "2%" }} className="phone" src={require('../pictures/smartphone-call.png')} alt="phone-icon" /> 
+<h3>(509)-828-7665</h3>
+</li>
+</ul>
+</div>
 
 
   </>

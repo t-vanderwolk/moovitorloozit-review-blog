@@ -3,7 +3,7 @@ import React from 'react'
 // import '../style/Home.css'
 const HomePage =() => (
     <>
-        <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black",marginBottom: "0%"}}className ='title'>MOOVIT OR LOOZIT</h1>
+        <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black",marginBottom: "0%", marginTop:"7%"}}className ='title'>MOOVIT OR LOOZIT</h1>
     <h2  style={{borderLeft:"3px solid black",borderRight:"3px solid black", borderBottom: "3px solid black",marginTop: "0%"}} className ='title'> MOOVING CO.</h2>
 <div className='hompage-head'style={{borderLeft:"3px solid black",borderRight:"3px solid black",display:"flex", justifyContent:"space-evenly", alignContent:"baseline", backgroundColor:"orange", marginLeft:"7%", marginRight:"7%", paddingTop: "7%"}}>
 

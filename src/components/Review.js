@@ -1,15 +1,22 @@
 import React from 'react'
-
+import '../style/Review.css'
 
 export default function Review(props) {
 const { review } = props;
 const { name, comment, date, location, rating } = review;
   return (
-    <div>
+
+  <div className='review'>
+    <div className='author'>{name},{location}</div>
+    <div className='rating'>
+ {rating}
+ </div>
+    <blockquote className='comment'>
         {/* What does the structure look like, how do we want our reviews to look? */}
         {/* Display the Name */}
 {/* {props.review.name} */}
-{name},{comment},{date},{location},{rating}
+{comment}
+{/* {name},{comment},{date},{location},{rating} */}
         {/* Display the Comment */}
 
         {/* Display the Date */}
@@ -17,6 +24,11 @@ const { name, comment, date, location, rating } = review;
         {/* Display the Location */}
 
         {/* Display the Rating */}
+    </blockquote>
+    <div className='date'>
+    {date}
     </div>
+    </div>  
+
   )
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -187,4 +187,30 @@ input:focus {
 .input-group input {
   width: 80%;
  }
+} */
+
+/* .author{
+ font-size: larger;
+}
+.review {
+  background-color: orange;
+} */
+.review {
+  text-align: center;
+  background-color: orange;
+  margin: 2%;
+  display: block;
+  margin-left: 7%;
+  margin-right: 7%;
+  border: 2px solid black;
+}
+.rating {
+  font-size: 150%;
+}
+
+.date {
+  text-align: right;
+}
+.author {
+  text-align: left;
 }

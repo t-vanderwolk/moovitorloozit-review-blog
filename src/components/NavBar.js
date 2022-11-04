@@ -8,8 +8,8 @@ const NavBar =() => {
  	<header className="header">
    
     
-    <Link to = '/'><img className="nav-logo" width="15%"src={require('../icons/moovitLogo.png')} alt="logo" style= {{display:"left" }}/> </Link> 
-     
+    <Link to = '/'><img className="nav-logo" width="15%"src={require('../icons/moovitLogo.png')} alt="logo" /></Link>
+    
       <ul className="main-nav">
    
         <li>

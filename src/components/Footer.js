@@ -5,12 +5,15 @@ const Footer = () => {
     <footer
       className="footer"
       style={{
+    
         display: 'flex',
         justifyContent: 'space-around',
         alignContent: 'baseline',
         alignItems: 'baseline',
         border: '3px solid black',
         backgroundColor: 'orange',
+      
+        
       }}
     >
       <img

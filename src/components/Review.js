@@ -5,6 +5,7 @@ export default function Review(props) {
 const { review } = props;
 const { name, comment, date, location, rating } = review;
   return (
+    
 
   <div className='review'>
     <div className='author'>{date}</div>

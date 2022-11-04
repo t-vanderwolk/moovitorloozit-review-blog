@@ -21,6 +21,8 @@ export default function ReviewPage() {
 
   return (
     <>
+          <h1 style={{backgroundColor:"orange",border: "3px solid black"}} className ='title'>Reviews</h1>
+
       {/* <img  style={{ width:"100%",height:"100%", padding: "2%",marginTop:"5%", marginBottom:"5%" }} className="inProgress" src={require('../pictures/inProgress2.jpeg')} alt="inProgress" />  */}
       <div className="comment">{reviews1}</div>
     </>

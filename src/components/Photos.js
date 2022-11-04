@@ -4,9 +4,9 @@ import React from "react";
       <div className="Photos" style={{
         display: "flex",
        alignContent:"center",
-       backgroundColor: "orange",
-       marginRight: "7%", 
-       marginLeft:"7%",
+       backgroundColor: "white",
+      //  marginRight: "7%", 
+      //  marginLeft:"7%",
        border: "3px solid black"
        
       }}>

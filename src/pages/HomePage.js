@@ -5,7 +5,7 @@ const HomePage =() => (
     <>
         <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black",marginBottom: "0%", marginTop:"7%"}}className ='title'>MOOVIT OR LOOZIT</h1>
     <h2  style={{borderLeft:"3px solid black",borderRight:"3px solid black", borderBottom: "3px solid black",marginTop: "0%"}} className ='title'> MOOVING CO.</h2>
-<div className='hompage-head'style={{borderLeft:"3px solid black",borderRight:"3px solid black",display:"flex", justifyContent:"space-evenly", alignContent:"baseline", backgroundColor:"orange", marginLeft:"7%", marginRight:"7%", paddingTop: "7%"}}>
+<div className='hompage-head'style={{borderLeft:"3px solid black",borderRight:"3px solid black",display:"flex", justifyContent:"space-evenly", alignContent:"baseline", backgroundColor:"white", marginLeft:"7%", marginRight:"7%", paddingTop: "7%"}}>
 
 
 
@@ -17,7 +17,7 @@ const HomePage =() => (
 <img  style={{ width:"20%", height:"100%",  padding: "2%", backgroundColor:"white"}}  className="washington" src={require('../icons/us-map.png')} alt="washington state" />
 
 </div>
-<h3 style={{borderLeft:"3px solid black",borderRight:"3px solid black",borderBottom:"3px solid black",backgroundColor: "orange", marginTop: "0%", marginLeft:"7%", marginRight:"7%", marginBottom:"7%", paddingBottom: "7%"}} className ='title'>~"Let's Get MOOvin!"</h3>
+<h3 style={{borderLeft:"3px solid black",borderRight:"3px solid black",borderBottom:"3px solid black",backgroundColor: "white", marginTop: "0%", marginLeft:"7%", marginRight:"7%", marginBottom:"7%", paddingBottom: "7%"}} className ='title'>~"Let's Get MOOvin!"</h3>
 
 
 {/* <footer className='footer' style={{

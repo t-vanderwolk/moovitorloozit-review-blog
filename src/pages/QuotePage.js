@@ -19,9 +19,9 @@ const QuotePage = () => {
   return (
 
     <>
-     <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black", marginLeft:"20%", marginRight:"20%"}} class = 'title'>Get A Quote</h1>
+     <h1 style={{backgroundColor:"orange",borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black", marginLeft:"20%", marginRight:"20%"}} class = 'title'>Get A Quote</h1>
     
-    <form style={{ backgroundColor:"orange",
+    <form style={{ backgroundColor:"white",
     marginRight: "20%",
 
     textAlign:"center",

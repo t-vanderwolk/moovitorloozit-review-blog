@@ -2,11 +2,11 @@ import React from 'react'
 const ContactPage=() => (
     <>
   
-    <h1 style={{borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black",marginBottom:"0%", marginTop:"7%"}} class = 'title'>Contact Us</h1>
+    <h1 style={{marginLeft:"20%",marginRight: "20%",backgroundColor:"orange",borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black",marginBottom:"0%", marginTop:"7%"}} class = 'title'>Contact Us</h1>
   
 
-<div style={{ backgroundColor:"orange",marginRight: "7%", textAlign:"center",
-       marginLeft:"7%", marginBottom:"7%",
+<div style={{ backgroundColor:"white",marginRight: "20%", textAlign:"center",
+       marginLeft:"20%", marginBottom:"7%",
        border: "3px solid black" }}>
 <h2 style={{ textAlign:"center"}}>Contact Us By Email, Phone or Text 24/7!</h2>
 <ul>

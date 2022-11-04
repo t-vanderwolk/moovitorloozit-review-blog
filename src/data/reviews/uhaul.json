@@ -1,20 +1,20 @@
 {
   "reviews": [
     {
-      "rating": 5,
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
       "name": "Ma Danica j C.",
      "location": "Puyallup, WA",
       "date": "10/30/2022"
     },
     {
-      "rating": 5,
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
       "name": "Natalie A.",
       "comment": "The guys were excellent. I've forgotten their names, but they were professional, quick, efficient, and pleasant. Thank you for your excellent help. I will use them for my next move.",
       "location": "Ogden, UT",
       "date": "10/21/2022"
     },
     {
-      "rating": 4,
+      "rating": "⭐️⭐️⭐️⭐️",
       "name": "Natalie A.",
       "comment": "This company was great. Everything was excellent except it took an extra 4 days for my piano to be moved into my house (from the garage where they off-loaded it from the truck. The guys were great at scheduling the secondary move of the piano, however, and were professional and prompt in executing the second piano move (from garage to house). Despite the hiccups, I will use this company for my next PNW move..",
       "location": "Ogden, UT",
@@ -22,7 +22,7 @@
     },
 
     {
-      "rating":5,
+      "rating":"⭐️⭐️⭐️⭐️⭐️",
       "name":"Maria H.",
       "comment":"The movers from Moove It or Lose it were phenomenal. Two men arrived on time, worked incredibly hard the entire time they were here and saved my husband and I hours of work and stress. I highly recommend this company.",
       "location":"Bakersfield, CA",
@@ -30,56 +30,56 @@
 
     },
     {
-      "rating":5,
+      "rating":"⭐️⭐️⭐️⭐️⭐️",
       "name":"Leora H",
       "comment":"Very nice and helpful. Careful with belongings.",
       "location":"Fort Worth, TX",
       "date":"10/24/2022"
     },
     {
-      "rating":5,
+      "rating":"⭐️⭐️⭐️⭐️⭐️",
       "name":"Tomm A.",
       "comment":"Will hire again!",
       "location":"Olympia, WA",
       "date":"10/20/2022"
     },
     {
-    "rating":5,
+    "rating":"⭐️⭐️⭐️⭐️⭐️",
     "name":"Richard S.",
     "comment":"Absolutely Appreciate, On time, got right to it, respectful and efficient. Thanks",
     "location":"Puyallup, WA",
     "date":"10/08/2022"
     },
     {
-      "rating":4.5,
+      "rating":"⭐️⭐️⭐️⭐️",
       "name":"Alan G.",
       "comment":"Weren't completely sure they were going to show up as they never provided verbal confirmation, but their team showed up on time and were very helpful and professional.",
       "location":"Sacramento, CA",
       "date":"10/06/2022"
     },
     {
-      "rating":5,
+      "rating":"⭐️⭐️⭐️⭐️⭐️",
       "name":"Jeff A.",
       "comment":"Business provided 2 helpers on short notice. I placed the order online through I-haul around 1am requesting morning help. I received received a confirmation call around 8am. The movers arrived in the morning and completed within the reserved time. They were courteous and followed direction well. Would definitely recommend them. A+",
       "location":"Centralia, WA",
       "date":"10/06/2022"
     },
     {
-      "rating":5,
+      "rating":"⭐️⭐️⭐️⭐️⭐️",
       "name":"Sera W.",
       "comment":"Moovitorloozit was able to assist with my unload request with only 2 days notice. They showed up on time and even called ahead to let me know they were on their way. Their team got my truck unloaded quickly and they were very careful with our furniture. I will definitely use them again for our future moving needs, and would highly recommend them.",
       "location":"Bremerton, WA",
       "date":"10/03/2022"
     },
     {
-      "rating":5,
+      "rating":"⭐️⭐️⭐️⭐️⭐️",
       "name":"Kelsea O.",
       "comment":"Had a last minute job and the team was flexible to accommodate me at the end of the day. Weren't needed for long, would have just liked to pay a higher rate for the 30 minutes needed. But I understand, business is business.",
       "location":"Allenton, MI",
       "date":"10/02/2022"
     },
     {
-      "rating": 5,
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
       "name": "Raymond R.",
      "location": "ABERDEEN, WA",
       "date": "09/24/2022"

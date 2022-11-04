@@ -10,11 +10,11 @@ const HomePage =() => (
 
 
 
-<img  style={{ width:"20%", height:"100%", padding: "2%" }} className="washington" src={require('../icons/washington.png')} alt="washington state" /> 
+<img  style={{ width:"20%", height:"100%", padding: "2%", backgroundColor:"white"}} className="washington" src={require('../icons/washington.png')} alt="washington state" /> 
 
-<img  style={{ width:"30%", }} className="nav-logo" src={require('../icons/moovitLogo.png')} alt="crew" /> 
+<img  style={{ width:"30%" }} className="nav-logo" src={require('../icons/moovitLogo.png')} alt="crew" /> 
 
-<img  style={{ width:"20%", height:"100%",  padding: "2%"}}  className="washington" src={require('../icons/us-map.png')} alt="washington state" />
+<img  style={{ width:"20%", height:"100%",  padding: "2%", backgroundColor:"white"}}  className="washington" src={require('../icons/us-map.png')} alt="washington state" />
 
 </div>
 <h3 style={{borderLeft:"3px solid black",borderRight:"3px solid black",borderBottom:"3px solid black",backgroundColor: "orange", marginTop: "0%", marginLeft:"7%", marginRight:"7%", marginBottom:"7%", paddingBottom: "7%"}} className ='title'>~"Let's Get MOOvin!"</h3>

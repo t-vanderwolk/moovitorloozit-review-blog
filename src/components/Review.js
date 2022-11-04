@@ -7,7 +7,7 @@ const { name, comment, date, location, rating } = review;
   return (
 
   <div className='review'>
-    <div className='author'>{name},{location}</div>
+    <div className='author'>{date}</div>
     <div className='rating'>
  {rating}
  </div>
@@ -26,7 +26,7 @@ const { name, comment, date, location, rating } = review;
         {/* Display the Rating */}
     </blockquote>
     <div className='date'>
-    {date}
+     {name},{location}
     </div>
     </div>  
 

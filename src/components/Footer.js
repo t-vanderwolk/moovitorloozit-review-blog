@@ -5,7 +5,7 @@ const Footer = () => {
     <footer
       className="footer"
       style={{
-    
+    position:"relative",
         display: 'flex',
         justifyContent: 'space-around',
         alignContent: 'baseline',

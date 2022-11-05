@@ -3,7 +3,7 @@ import Photos from "../components/Photos"
 const AboutPage =() => (
 
     <>
-      <h1 style={{backgroundColor:"orange",borderTop: "3px solid black",borderLeft:"3px solid black",borderRight:"3px solid black"}} className ='title'>About Us</h1>
+      <h1 style={{marginLeft:"20%",marginRight:"20%",marginTop:"2%", marginBottom:"2%",backgroundColor:"orange",border: "3px solid black"}} className ='title'>About Us</h1>
 <Photos />
 
   

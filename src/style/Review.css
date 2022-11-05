@@ -202,7 +202,7 @@ input:focus {
   display: block;
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px solid black;
+  border: 5px solid black;
   font-size: 150%;
 }
 .rating {
@@ -212,9 +212,11 @@ input:focus {
 
 .date {
   text-align: right;
+  font-weight: bold;
 }
 .author {
   text-align: left;
+  /* font-weight: bold; */
 }
 /* .review {
   background-color: orange;

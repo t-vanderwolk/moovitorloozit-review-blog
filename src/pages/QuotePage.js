@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 const QuotePage = () => {
   const form = useRef();
 
@@ -23,7 +24,7 @@ const QuotePage = () => {
     
     <form style={{ backgroundColor:"white",
     marginRight: "20%",
-
+   display:"flexbox",
     textAlign:"center",
     marginLeft:"20%",
      marginTop:"0%",

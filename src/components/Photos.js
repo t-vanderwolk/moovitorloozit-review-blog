@@ -2,30 +2,33 @@ import React from "react";
   function Photos() {
     return(
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <img src={require('../pictures/image2.jpeg')}class="d-block w-25" alt="crew"/>
-    </div>
-    <div class="carousel-item">
-      <img src={require('../pictures/image3.jpeg')} class="d-block w-25" alt="crew"/>
-    </div>
-    <div class="carousel-item ">
-      <img src={require('../pictures/image4.jpeg')} class="d-block w-25" alt="crew"/>
-    </div>
-    <div class="carousel-item">
-      <img src={require('../pictures/nicky.jpeg')} class="d-block w-25" alt="crew"/>
-    </div>
+      <div className="Photos" style={{
+        display: "flex",
+      margin:"2%",
+       
+       borderTop: "5px solid black" ,
+       borderBottom: "5px solid black" ,
+       borderLeft: "5px solid black" ,
+       borderRight: "5px solid black" 
+      
+       
+       
+      }}>
+
+      <img style={{width:"25%",  borderRight: "5px solid black"  }} src={require('../pictures/image2.jpeg')} alt="crew"/>
+   
+    
+      <img  style={{width:"25%",   borderRight: "5px solid black" }}  src={require('../pictures/image3.jpeg')}  alt="crew"/>
+   
+    
+      <img  style={{width:"25%",   borderRight: "5px solid black"  }} src={require('../pictures/image4.jpeg')} alt="crew"/>
+    
+ 
+      <img style={{width:"25%"}}  src={require('../pictures/nicky.jpeg')} alt="crew"/>
+    
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
+ 
     //   <div className="Photos" style={{
     //     display: "flex",
     //    alignContent:"center",

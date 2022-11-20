@@ -1,12 +1,17 @@
 import React from 'react'
 import '../style/Review.css'
+import ReviewForm from './ReviewForm';
 
 export default function Review(props) {
+
 const { review } = props;
 const { name, comment, date, location, rating } = review;
-  return (
-    
 
+  return (
+
+
+   
+   
   <div className='review'>
     <div className='author'>{date}</div>
     <div className='rating'>
@@ -29,7 +34,11 @@ const { name, comment, date, location, rating } = review;
     <div className='date'>
      {name},{location}
     </div>
+
     </div>  
+  
+
+
 
   )
 }

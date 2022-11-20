@@ -10,6 +10,7 @@ import NavBar from './components/NavBar';
 // import './Nav.css';
 import './style/Home.css';
 import Footer from './components/Footer';
+import ReviewForm from './components/ReviewForm';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/quote" element={<QuotePage />} />
             <Route path="/review" element={<ReviewPage />} />
+            <Route path="./review/form" element={<ReviewForm/>} />
           </Routes>
         </div>
       </Router>

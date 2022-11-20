@@ -3,9 +3,10 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer
-      className="footer"
+      className="bottom"
       style={{
-    position:"relative",
+        marginBottom:"0%",
+        paddingBottom:"0%",
         display: 'flex',
         justifyContent: 'space-around',
         alignContent: 'baseline',

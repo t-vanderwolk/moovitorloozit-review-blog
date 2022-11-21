@@ -216,8 +216,11 @@ input:focus {
 }
 .author {
   text-align: left;
+
   /* font-weight: bold; */
 }
+
+
 /* .review {
   background-color: orange;
   display: flexbox;

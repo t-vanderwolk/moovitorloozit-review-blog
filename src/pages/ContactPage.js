@@ -2,7 +2,7 @@ import React from 'react'
 const ContactPage=() => (
     <>
   
-    <h1 style={{marginLeft:"20%",marginRight: "20%",backgroundColor:"orange",border: "3px solid black", marginTop:"2%", marginBottom:"2%"}} class = 'title'>Contact Us</h1>
+    <h1 style={{marginLeft:"20%",marginRight: "20%",backgroundColor:"orange",border: "3px solid black", marginTop:"2%", marginBottom:"5%"}} class = 'title'>Contact Us</h1>
   
 
 <div style={{ backgroundColor:"white",marginRight: "20%", textAlign:"center",

@@ -50,10 +50,9 @@ const ratingChangeHandler = (event) => {
       <Container >
         <h2 style={{textAlign:"center"}}>Leave us a Review</h2>
       <Form onSubmit={submitHandler}>
-
       <Form.Group  controlId="form.rating">
             <Form.Label>Rating</Form.Label>
-            <Form.Control type="number" value={enteredRating} onChange={ratingChangeHandler}placeholder="How Was Our Service" required/>
+            <Form.Control type="number"  value={enteredRating} onChange={ratingChangeHandler}placeholder="How Was Our Service" required/>
         </Form.Group>
 
       <Form.Group  controlId="form.name">
